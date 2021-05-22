@@ -1,6 +1,8 @@
-# work-day-scheduler
+# Work Day Scheduler
 
-In this project I am creating a work day scheduler. It displays the current date on the top and has multiple text input sections for certain times through out the day. 
+# Description 
+
+In this project I created a simple calendar application which allows users to save events for each hour in their work day. The app features HTML, CSS, and is powered by jQuery. 
 
 [Deployed Site](https://aftaab-dobani.github.io/work-day-scheduler/)
 
