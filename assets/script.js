@@ -1,7 +1,17 @@
-//Variable
-var userInput = $("#description");
-var currentDayMonthSpan = $("#currentDay");
-var timeBlock = $("#time-block");
+$(document).ready(function () {
+    $('.saveBtn').on('click', function () {
+        var value = $(this).siblings('.description').val();
+        var time = $(this).parent().attr('id');
+
+        // saving to local storage & showing
+        localStorage.setItem(time, value); 
+        $('.notfications').addClass('show'); 
+
+        setTimeout(function () {
+            $('.notification').addClass('show');
+        }, 5000);
+    })
+})
 
 //Button Var : created to insert into on click function 
 var button1 = $("#saveBtn1");
